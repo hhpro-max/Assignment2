@@ -24,7 +24,7 @@ public:
 
     // private member access
     bool isActive() const;
-    const std::string &tag() const;
+    const std::string & tag() const;
     const size_t id() const;
     void destroy();
 };

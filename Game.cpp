@@ -7,6 +7,10 @@ void Game::init()
     m_window.setFramerateLimit(60);
     spawnPlayer();
 }
+Game::Game()
+{
+
+}
 void Game::run()
 {
     while (m_running)

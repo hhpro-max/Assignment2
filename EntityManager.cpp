@@ -8,7 +8,7 @@ void EntityManager::update()
     for (auto e : m_entitiesToAdd)
     {
         m_entities.push_back(e);
-       //add this to the vector of the entity map by finding with tag and so on
+        // add this to the vector of the entity map by finding with tag and so on
     }
     m_entitiesToAdd.clear();
     removeDeadEntities(m_entities);
@@ -17,6 +17,7 @@ void EntityManager::update()
         removeDeadEntities(entityVec);
     }
 }
+
 void EntityManager::removeDeadEntities(EntityVec &vec)
 {
 }
